@@ -1,38 +1,40 @@
-# Welcome to AdTecher
+# AdTecher
 
-> Enterprise-grade ad tech solutions powered by data and AI
-
-## About Us
-
-AdTecher is a data company that leverages LLMs and AI to deliver intelligent advertising analytics and performance optimization. Based in the United Kingdom, we help businesses make smarter advertising decisions through real-time insights and anomaly detection.
+**AI-powered solutions protecting and optimizing digital advertising spend.**
 
 ## Our Products
 
-| Product | Description | Status |
-|---------|-------------|--------|
-| **[Project Vulcan](https://github.com/AdTecher/Project-Vulcan)** | AI-powered ad performance analysis platform | Active |
-| **[Vulcan Enterprise API](https://github.com/AdTecher/vulcan-enterprise-api)** | Multi-tenant SaaS API for ad analytics | Active |
-| **[KeyTakeAways Dashboard](https://github.com/AdTecher/KeyTakeAways-dashboard)** | Shopify analytics dashboard | Active |
-| **[Project Canary](https://github.com/AdTecher/Project-Canary)** | Early-warning system for business opportunities | Development |
+### Project Vulcan
+Enterprise-grade ad analytics platform with real-time fraud detection, cross-platform campaign intelligence, and AI-powered optimization. Built with Python and FastAPI.
 
-## Documentation
+### Selene AI
+Intelligent ad spend protection system that detects waste, fraud, and inefficiency across advertising campaigns.
 
-- **[Coding Standards](https://github.com/AdTecher/vulcan-enterprise-api/blob/main/docs/development/CODING_STANDARDS.md)** - Our development guidelines
-- **[Architecture Decisions](https://github.com/AdTecher/vulcan-enterprise-api/tree/main/docs/ADR)** - ADRs documenting key technical decisions
-- **[Contributing Guide](https://github.com/AdTecher/.github/blob/main/CONTRIBUTING.md)** - How to contribute to our projects
+### Project Canary
+Early-warning system detecting business opportunities via Shopify ecosystem analysis.
 
-## Tech Stack
+### KeyTakeAways Dashboard
+AI-powered Shopify e-commerce analytics dashboard providing actionable business insights.
 
-- **Backend**: Python 3.11+, FastAPI, PostgreSQL
-- **Frontend**: React, TypeScript, Chakra UI
-- **Infrastructure**: AWS, Terraform, Docker
-- **AI/ML**: AWS Bedrock, LangChain
+### Custom Ad Generator
+AI-powered promotional video ad generator that creates ads from business websites.
 
-## Get in Touch
+## Technology Stack
 
-- Website: [adtecher.com](https://www.adtecher.com)
-- LinkedIn: [company/adtecher](https://linkedin.com/company/adtecher)
+- **Backend**: Python, FastAPI, PostgreSQL
+- **Frontend**: TypeScript, Next.js, React
+- **AI/ML**: Custom models for ad fraud detection and optimization
+- **Infrastructure**: GitHub Actions CI/CD
+
+## Contributing
+
+We welcome contributions\! Please see our [Contributing Guide](https://github.com/AdTecher/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/AdTecher/.github/blob/main/CODE_OF_CONDUCT.md) before getting started.
+
+## Get In Touch
+
+- [Website](https://adtecher.com)
+- Contact us for enterprise inquiries
 
 ---
 
-*Building the future of advertising analytics, one insight at a time.*
+*Building the future of transparent, efficient digital advertising.*
