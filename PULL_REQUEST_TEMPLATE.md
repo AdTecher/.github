@@ -1,28 +1,22 @@
-## Description
+## Summary
 
-<!-- Provide a brief description of the changes in this PR -->
+<!-- Brief description of what this PR does and why -->
 
 ## Type of Change
 
-<!-- Mark the relevant option with an 'x' -->
+<!-- Check all that apply and add the corresponding label -->
 
-- [ ] Bug fix (non-breaking change that fixes an issue)
-- [ ] New feature (non-breaking change that adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
-- [ ] Documentation update
-- [ ] Refactoring (no functional changes)
-- [ ] Performance improvement
-- [ ] Test additions/modifications
-
-## Related Issues
-
-<!-- Link any related issues using keywords: Fixes #123, Closes #456, Relates to #789 -->
-
-Fixes #
+- [ ] Bug fix (`bug`)
+- [ ] New feature (`enhancement`)
+- [ ] Refactoring (`type: refactor`)
+- [ ] Documentation (`documentation`)
+- [ ] Infrastructure/CI (`type: infrastructure`)
+- [ ] Performance improvement (`type: performance`)
+- [ ] Security fix (`type: security`)
 
 ## Changes Made
 
-<!-- List the key changes made in this PR -->
+<!-- List the key changes -->
 
 -
 -
@@ -33,32 +27,27 @@ Fixes #
 <!-- Describe how you tested these changes -->
 
 - [ ] Unit tests added/updated
-- [ ] Integration tests added/updated
 - [ ] Manual testing performed
+- [ ] CI pipeline passing
 
-### Test Results
+## Screenshots
 
-```
-# Paste test output here if relevant
-```
+<!-- If applicable, add screenshots or recordings -->
 
-## Checklist
+## Review Checklist
 
-<!-- Mark completed items with an 'x' -->
+- [ ] Code follows project conventions
+- [ ] Self-reviewed the diff
+- [ ] No secrets, credentials, or sensitive data included
+- [ ] Related issue linked below
 
-- [ ] My code follows the project's coding standards
-- [ ] I have performed a self-review of my code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published
+## Related Issues
 
-## Screenshots (if applicable)
+<!-- Link related issues: Closes #123, Fixes #456 -->
 
-<!-- Add screenshots to help explain your changes -->
+## Reviewer
 
-## Additional Notes
-
-<!-- Any additional information that reviewers should know -->
+<!-- Tag the appropriate team for review -->
+<!-- @AdTecher/frontend for frontend changes -->
+<!-- @AdTecher/backend for backend changes -->
+<!-- @AdTecher/engineering for cross-cutting changes -->
