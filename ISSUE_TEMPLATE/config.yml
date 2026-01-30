@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Documentation
-    url: https://github.com/AdTecher/vulcan-enterprise-api/tree/main/docs
-    about: Check our documentation before opening an issue
+    url: https://github.com/AdTecher/.github/blob/main/CONTRIBUTING.md
+    about: Check our contributing guide before opening an issue
   - name: Security Vulnerabilities
     url: https://github.com/AdTecher/.github/blob/main/SECURITY.md
     about: Please report security vulnerabilities privately

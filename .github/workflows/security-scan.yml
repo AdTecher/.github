@@ -1,0 +1,42 @@
+name: Security Scan
+
+on:
+  workflow_call:
+    inputs:
+      language:
+        description: 'Primary language: node or python'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Audit Node dependencies
+        if: inputs.language == 'node'
+        run: |
+          npm ci --ignore-scripts
+          npm audit --audit-level=moderate
+
+      - name: Audit Python dependencies
+        if: inputs.language == 'python'
+        run: |
+          pip install pip-audit
+          pip-audit -r requirements.txt 2>/dev/null || pip-audit
+
+  secrets-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

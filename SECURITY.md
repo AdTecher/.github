@@ -23,16 +23,11 @@ Instead, please report security vulnerabilities by emailing:
 
 **security@adtecher.com**
 
-If you would like to encrypt your report, you may use our PGP key:
-
-```
-PGP Key Fingerprint: [TO BE ADDED]
-Public key available at: [TO BE ADDED]
-```
+If you would like to encrypt your report, contact security@adtecher.com to request our public PGP key.
 
 Include the following information in your report:
 
-1. **Affected repository / service** — which project is impacted
+1. **Affected repository / service** -- which project is impacted
 2. **Description** of the vulnerability
 3. **Steps to reproduce** the issue
 4. **Potential impact** of the vulnerability
@@ -65,11 +60,11 @@ This security policy applies to:
 
 For contributors, please follow these security guidelines:
 
-1. **Never commit secrets** — Use environment variables and secret management
-2. **Keep dependencies updated** — Regularly update to patched versions
-3. **Follow least privilege** — Request only necessary permissions
-4. **Validate inputs** — Always sanitize and validate user inputs
-5. **Use HTTPS** — Ensure all communications are encrypted
+1. **Never commit secrets** -- Use environment variables and secret management
+2. **Keep dependencies updated** -- Regularly update to patched versions
+3. **Follow least privilege** -- Request only necessary permissions
+4. **Validate inputs** -- Always sanitize and validate user inputs
+5. **Use HTTPS** -- Ensure all communications are encrypted
 
 ## Security Features
 

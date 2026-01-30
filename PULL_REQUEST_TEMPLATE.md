@@ -30,6 +30,16 @@
 - [ ] Manual testing performed
 - [ ] CI pipeline passing
 
+## Breaking Changes
+
+- [ ] This PR introduces breaking changes
+
+<!-- If checked, describe the breaking changes and migration steps below -->
+
+## Deployment Notes
+
+<!-- Note any deployment requirements: migrations, env vars, feature flags, etc. -->
+
 ## Screenshots
 
 <!-- If applicable, add screenshots or recordings -->
