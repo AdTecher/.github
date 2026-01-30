@@ -1,0 +1,19 @@
+# Default owners for the AdTecher organization
+# These owners will be requested for review when someone opens a PR
+
+# Default - request review from engineering team
+* @AdTecher/engineering
+
+# Frontend repos
+# Matched by repo-level CODEOWNERS in individual repos
+
+# Backend repos
+# Matched by repo-level CODEOWNERS in individual repos
+
+# Infrastructure and CI/CD
+.github/ @AdTecher/leadership
+*.yml @AdTecher/engineering
+*.yaml @AdTecher/engineering
+
+# Security-sensitive files
+SECURITY.md @AdTecher/leadership
